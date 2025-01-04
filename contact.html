@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>E-commerce Project Page</title>
+    <link rel="stylesheet" href="contact.css" />
+    <link rel="stylesheet" href="contactmediaquery.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="nav-container">
+        <div><a href="#">Help</a></div>
+        <div class="vertical-line"></div>
+        <div class="store"><a href="#">Store</a></div>
+      </div>
+    </nav>
+
+    <header>
+      <div class="logo"><img src="Frame 183.png" alt="logo" /></div>
+      <div class="header-icons">
+        <div class="comments">
+          <a href=""><img src="Group.png" alt="logo" /></a>
+        </div>
+        <div>
+          <a href=""><img src="Frame 91.png" alt="" /></a>
+        </div>
+        <div>
+          <a href=""><img src="Frame 90.png" alt="" /></a>
+        </div>
+        <div class="ahmad"><img src="Frame 92.png" alt="" /></div>
+      </div>
+      <div class="menu-icon">
+        <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+        <svg
+          width="800px"
+          height="800px"
+          viewBox="0 0 20 20"
+          xmlns="http://www.w3.org/2000/svg"
+          fill="none"
+        >
+          <path
+            fill="#000000"
+            fill-rule="evenodd"
+            d="M19 4a1 1 0 01-1 1H2a1 1 0 010-2h16a1 1 0 011 1zm0 6a1 1 0 01-1 1H2a1 1 0 110-2h16a1 1 0 011 1zm-1 7a1 1 0 100-2H2a1 1 0 100 2h16z"
+          />
+        </svg>
+      </div>
+
+      <div id="dropdown">
+        <ul>
+          <div class="comments"><img src="Group.png" alt="logo" /></div>
+          <div><img src="Frame 91.png" alt="" /></div>
+          <div><img src="Frame 90.png" alt="" /></div>
+          <div class="ahmad"><img src="Frame 92.png" alt="" /></div>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <h1 class="heading">Contact us</h1>
+      <form action="" id="formInfo">
+        <div class="input">
+          <div>
+            <label for="fullName"
+              >Full Name <span class="asterisk">*</span></label
+            ><br /><br />
+            <input
+              type="text"
+              placeholder="Aziz Sultan"
+              id="fullname"
+              name="fullName"
+              required
+            />
+            <span class="error-message" id="nameError"></span>
+          </div>
+          <div>
+            <label for="email">Email <span class="asterisk">*</span></label
+            ><br /><br />
+            <input
+              type="email"
+              placeholder="inimal@mailcom"
+              id="email"
+              name="email"
+              required
+            />
+            <!-- <span class="error-message" id="emailError"></span> -->
+          </div>
+        </div>
+        <div class="message">
+          <label for="message">Message</label><br /><br />
+          <textarea
+            type="text"
+            placeholder="Type your message here..."
+            rows="4"
+            columns="50"
+            id="message"
+            name="message"
+            required
+          ></textarea>
+          <!-- <span class="error-message" id="messageError"></span> -->
+        </div>
+        <label class="security-code" for="security"
+          >Type security code <span>*</span></label
+        ><br />
+        <input type="text" id="security" /><br />
+        <!-- <label for="empty-label"></label> -->
+        <input type="text" class="empty" id="captcha" name="captcha" required />
+        <!-- <span class="error-message" id="captchaError"></span> -->
+        <button type="submit" id="sendBtn" name="submit">Send</button>
+        <!-- <span class="error-message" id="submitError"></span> -->
+      </form>
+    </main>
+
+    <footer>
+      <div class="footer-head">
+        <div><img src="Frame 183.png" alt="logo" class="footer-logo" /></div>
+        <div class="Subscribe">
+          <input
+            type="text"
+            placeholder="Subscribe to our newsletter..."
+            class="subscribe"
+          /><img src="icons8-arrow-30.png" alt="arrow" class="arrow" />
+        </div>
+      </div>
+      <section class="footer-nav">
+        <div class="company">
+          <h3>Company</h3>
+          <a href="#">About us</a>
+          <a href="#">Our store</a>
+          <a href="#">News</a>
+        </div>
+        <div class="help">
+          <h3>Help</h3>
+          <div><a href="#">FAQ</a></div>
+          <div><a href="#">Help</a></div>
+          <div><a href="#">Terms</a></div>
+        </div>
+
+        <div class="icons">
+          <h3>Social Media</h3>
+          <div id="facebook">
+            <img
+              src="icons8-facebook-24.png"
+              alt="facebook-icon"
+              class="icon"
+            />
+
+            <a href="#">Facebook</a>
+          </div>
+          <div class="tik-container">
+            <img src="tik-tok.png" alt="tiktok-logo" class="icon" />
+
+            <a href="#">Tiktok</a>
+          </div>
+
+          <div class="insta-container">
+            <img src="instagram.png" alt="instagram-icom" class="icon" />
+
+            <a href="#">Instagram</a>
+          </div>
+        </div>
+
+        <div class="contact">
+          <h3>Contact</h3>
+          <div class="address">Sukaasih, Kota Tangerang, Banten 15111</div>
+          <div class="address">Phone: 0976444677</div>
+          <div class="address">Email: adminvantella@domain.com</div>
+        </div>
+      </section>
+      <p>Copyright 2023. All Rights Reserved</p>
+    </footer>
+    <script src="contact.js"></script>
+  </body>
+</html>

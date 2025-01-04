@@ -1,0 +1,300 @@
+/*For screens between 319-480px*/
+@media (min-width: 319px) and (max-width: 480px) {
+  nav {
+    display: none;
+  }
+
+  header {
+    width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    justify-content: space-between;
+    /* gap: 13rem; */
+  }
+  .menu-icon {
+    display: block;
+    position: relative;
+  }
+
+  svg {
+    width: 24px;
+  }
+  #dropdown {
+    display: none;
+    /* position: absolute; */
+    background-color: #f6f6f6;
+    min-width: 200px;
+    overflow: auto;
+    border: 1px solid #ddd;
+    z-index: 1;
+  }
+
+  #dropdown.show {
+    display: block;
+  }
+
+  .heading {
+    margin-left: 1.2rem;
+    padding-left: 0;
+    width: 100vw;
+    font-size: 2rem;
+  }
+  .header-icons {
+    display: none;
+  }
+  input {
+    width: 23rem;
+    height: 4.4rem;
+    background-color: rgba(241, 241, 241, 1);
+    padding: 15px;
+    font-size: 0.8rem;
+    border-radius: 7px;
+    border: none;
+  }
+
+  .input {
+    margin: 20px 0px 0px 10px;
+    display: block;
+  }
+  .message textarea {
+    margin-bottom: 10px;
+    width: 23rem;
+    height: 10rem;
+    resize: none;
+  }
+
+  .security-code {
+    margin: 1.2rem 0 0.8rem 1rem;
+    font-size: 0.8rem;
+    font-family: Inter;
+  }
+  .message {
+    margin: 20px 0px 0px 10px;
+  }
+  h3 {
+    margin: 2rem 0 1rem 0;
+  }
+
+  #security {
+    margin: 10px 0px 12px 16px;
+    width: 23rem;
+    height: 50px;
+    background-color: white;
+    border: 1rem 2rem 3rem 4rem;
+    border-left-width: 15rem solid black;
+    border: 15px solid rgba(241, 241, 241, 1);
+  }
+  .empty {
+    margin: 0.6rem 0 1.9rem 1rem;
+    width: 50%;
+  }
+
+  .footer-head {
+    margin-top: 1.9rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    display: block;
+  }
+
+  .subscribe {
+    border: none;
+    border-radius: 1.25rem;
+    position: relative;
+    width: 16.9rem;
+    height: 2.5rem;
+    font-size: 0.8rem;
+  }
+  .arrow {
+    padding-top: 0.9rem;
+    position: absolute;
+    left: 16rem;
+    width: 0.9rem;
+    font-weight: 500;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 1000px;
+    background-color: rgba(31, 62, 151, 1);
+    color: white;
+  }
+  .footer-nav {
+    display: block;
+    margin-left: 2rem;
+    height: 200px;
+  }
+  p {
+    margin-top: 30.9rem;
+    width: 100vw;
+    height: 5rem;
+    background-color: rgb(9, 54, 152);
+    font-family: Inter;
+    font-size: 0.8rem;
+    padding: 2rem 3rem 2rem 5rem;
+  }
+
+  .help a {
+    font-size: 1rem;
+  }
+
+  .company a {
+    font-size: 1rem;
+  }
+
+  .icons a {
+    font-size: 1rem;
+  }
+
+  #sendBtn {
+    width: 40%;
+    padding: 1.2rem 3rem;
+    font-size: 1.5rem;
+  }
+}
+
+/*For screens between 481-1200px*/
+
+@media (min-width: 481px) and (max-width: 1200px) {
+  nav {
+    background: rgba(241, 241, 241, 1);
+    width: 100%;
+    height: 2.7rem;
+    padding-top: 0.8rem;
+  }
+  .nav-container {
+    padding-right: 7rem;
+  }
+  header {
+    width: 100vw;
+    padding-left: 3rem;
+    padding-right: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 24rem;
+  }
+
+  .heading {
+    margin-left: 3.5rem;
+    padding-left: 0;
+    width: 100vw;
+    font-size: 2rem;
+  }
+
+  input {
+    width: 18.7rem;
+    height: 2.4rem;
+    background-color: rgba(241, 241, 241, 1);
+    padding: 2rem;
+    font-size: 0.8rem;
+    border-radius: 7px;
+    border: none;
+  }
+
+  .input {
+    margin: 20px 0px 0px 50px;
+    display: flex;
+  }
+  .message textarea {
+    margin-bottom: 10px;
+    width: 39.3rem;
+    height: 10rem;
+  }
+
+  button {
+    color: white;
+    background-color: rgba(31, 62, 151, 1);
+    border-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    width: 10rem;
+    height: 4rem;
+  }
+  .empty {
+    margin: 0.6rem 0 1.9rem 3rem;
+    width: 12.5rem;
+    height: 4rem;
+  }
+
+  .security-code {
+    margin: 1.2rem 0 0.8rem 3rem;
+    font-size: 0.8rem;
+    font-family: Inter;
+  }
+  .message {
+    margin: 20px 0px 0px 50px;
+  }
+  h3 {
+    margin: 2rem 0 1rem 0;
+  }
+
+  #security {
+    margin: 10px 0px 12px 50px;
+    width: 23rem;
+    height: 50px;
+    background-color: white;
+    border: 1rem 2rem 3rem 4rem;
+    border-left-width: 15rem solid black;
+    border: 15px solid rgba(241, 241, 241, 1);
+  }
+
+  .footer-head {
+    margin-top: 1.9rem;
+    margin-bottom: 2rem;
+    margin-left: 1rem;
+    display: flex;
+  }
+
+  .subscribe {
+    border: none;
+    border-radius: 1.25rem;
+    position: relative;
+    width: 16.9rem;
+    height: 2.5rem;
+    font-size: 1rem;
+  }
+  .arrow {
+    padding-top: 0.9rem;
+    position: absolute;
+    left: 61rem;
+    bottom: 5.7rem;
+    width: 0.9rem;
+    font-weight: 500;
+  }
+
+  footer {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background-color: rgba(31, 62, 151, 1);
+    color: white;
+  }
+  .footer-nav {
+    display: flex;
+    margin-left: 2rem;
+    height: 200px;
+  }
+  p {
+    margin-top: 3rem;
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(9, 54, 152);
+    font-family: Inter;
+    font-size: 0.8rem;
+    padding: 2rem 3rem 2rem 25rem;
+  }
+
+  .help a {
+    font-size: 1rem;
+  }
+
+  .company a {
+    font-size: 1rem;
+  }
+
+  .icons a {
+    font-size: 1rem;
+  }
+}
